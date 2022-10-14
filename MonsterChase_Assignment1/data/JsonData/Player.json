@@ -1,0 +1,15 @@
+{
+  "name": "Player",
+  "mass": 10,
+  "initial_position": [ 0.0, 11.0 ],
+  "initial_velocity": [ 0.0, 0.0 ],
+  "render_data": {
+    "sprite": "data\\Models\\GoodGuy.dds"
+  },
+  "render_offset": [ 40.0, 40.0 ],
+  "isApplyGravity": 0,
+  "Collision_data": {
+    "offset": [ 0.0, 0.0 ],
+    "extents": [ 40.0, 40.0 ]
+  }
+}

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Timing">
+      <UniqueIdentifier>{983b797f-f478-4666-a13a-926c1a38b90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysicSystem">
+      <UniqueIdentifier>{933b6611-ec85-4126-a5c7-a293e0eabcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{db3c1eb0-6e7f-42d2-8dc6-063eb75b660a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{5d144b52-76d5-4a54-87c7-c483d9be1ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic">
+      <UniqueIdentifier>{9fc4535c-4544-463a-8705-788d3bc95dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{fc7f6ff5-4858-4efd-ad83-cf74ca3d597f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JsonRef">
+      <UniqueIdentifier>{c42745f5-1e87-4f1b-8e37-55a6a0521257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JobSytem">
+      <UniqueIdentifier>{2ce6a6eb-cb95-41ee-8918-e8aeacf948da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{4163d5da-53cf-405a-a4a1-bfbb131c6cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HashedString">
+      <UniqueIdentifier>{dd949a33-9440-47f0-b944-5ae68b3548e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Syncronization">
+      <UniqueIdentifier>{c5b0edd5-5f4c-4c6e-a923-ed59909a2a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{cea148ce-82e9-4a1b-8360-1ee280770f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Init">
+      <UniqueIdentifier>{f06988be-0b99-4808-8e2a-160220aedbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{24d0ec96-70ce-4c6f-9b14-333cbdfceeb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Timing.h">
+      <Filter>Source Files\Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="Physic.h">
+      <Filter>Source Files\PhysicSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Source Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtrs.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPtrs.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFileToBuffer.h">
+      <Filter>Source Files\JsonRef</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParse.h">
+      <Filter>Source Files\JsonRef</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobRunner.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedJobQueue-inl.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrint.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString.h">
+      <Filter>Source Files\HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString-inl.h">
+      <Filter>Source Files\HashedString</Filter>
+    </ClInclude>
+    <ClInclude Include="JobStatus.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="AtomicOperations.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeLock.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleWriterMultipleReader.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleWriterMultipleReader.Win.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitableObject.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitableObject.Win.h">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsHelpers.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFileJob.h">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFile.h">
+      <Filter>Source Files\JsonRef</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupShutdown.h">
+      <Filter>Source Files\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timing.cpp">
+      <Filter>Source Files\Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Physic.cpp">
+      <Filter>Source Files\PhysicSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFileToBuffer.cpp">
+      <Filter>Source Files\JsonRef</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem.cpp">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobRunner.cpp">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedJobQueue.cpp">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrint.Win32.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString.cpp">
+      <Filter>Source Files\HashedString</Filter>
+    </ClCompile>
+    <ClCompile Include="AtomicOperations.cpp">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.Win.cpp">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.Win.cpp">
+      <Filter>Source Files\Syncronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFileJob.cpp">
+      <Filter>Source Files\JobSytem</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFile.cpp">
+      <Filter>Source Files\JsonRef</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupShutdown.cpp">
+      <Filter>Source Files\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

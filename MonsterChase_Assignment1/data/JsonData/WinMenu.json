@@ -1,0 +1,15 @@
+{
+  "name": "WinMenu",
+  "mass": 0,
+  "initial_position": [ 0.0, 0.0 ],
+  "initial_velocity": [ 0.0, 0.0 ],
+  "render_data": {
+    "sprite": "data\\UI\\WinMenu.dds"
+  },
+  "render_offset": [ 48.0, 48.0 ],
+  "isApplyGravity": 0,
+  "Collision_data": {
+    "offset": [ 0.0, 0.0 ],
+    "extents": [ 48.0, 48.0 ]
+  }
+}

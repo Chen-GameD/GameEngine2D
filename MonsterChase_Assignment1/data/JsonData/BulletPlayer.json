@@ -1,0 +1,15 @@
+{
+  "name": "player_bullet",
+  "mass": 0,
+  "initial_position": [ 0.0, 0.0 ],
+  "initial_velocity": [ 0.0, 0.0 ],
+  "render_data": {
+    "sprite": "data\\Models\\BulletPlayer.dds"
+  },
+  "render_offset": [ 16.0, 16.0 ],
+  "isApplyGravity": 0,
+  "Collision_data": {
+    "offset": [ 0.0, 0.0 ],
+    "extents": [ 16.0, 16.0 ]
+  }
+}
